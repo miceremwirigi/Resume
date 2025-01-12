@@ -1,0 +1,139 @@
+Dan Mwirigi
+
+
+miceremwirigi@gmail.com
++254710540011
+Nairobi, Kenya
+https://github.com/miceremwirigi
+
+
+
+------------------------
+Engineer
+
+
+------------------------
+I'm a junior biomedical engineer with passion for the application of engineering principles to enhance the quality of day-to-day life.
+
+
+Education
+------------------------
+Bsc. Biomedical Engineering
+Kenyatta University
+08/2019 - 12/2024
+Courses
+- Instrumentation 
+- Signal Processing 
+- Programming 
+
+
+Bachelor of Economics
+Kenyatta University
+08/2017 - 08/2019
+Courses
+- Economic Theory 
+- Business Law 
+- Econometrics 
+
+
+Kenya Certificate of Secondary Education
+Alliance High School
+02/2013 - 12/2016
+Courses
+
+
+
+
+
+Work Experience
+------------------------
+Backend Software Engineer Intern
+Javan Informatics
+06/2023 - 03/2024
+Achievements/Tasks
+- Build the backend app of a fintech app 
+- Testing the code base of the app 
+- Maintaining the code base the app 
+x-t-c1-color: Kennedy Gathua - 0718488252
+
+
+Medical Equipment Service Engineer Intern
+Apicalmed LTD
+01/2023 - 04/2023
+Achievements/Tasks
+- Diagnosing faulty equipment 
+- Calibrating medical equipment 
+- Maintenance and servicing of biomedical equipment 
+x-t-c1-color: Johnson - 0715891745
+
+
+
+
+
+volunteer experience
+------------------------
+Journey ICC
+06/2023 - 01 / 2025
+
+
+Javan Informatics
+06/2023 - 12/2023
+
+
+Kenya Orient Insurance Ltd.
+01/2017 - 08/2017
+
+
+
+
+
+Skills
+------------------------
+-Programming in Go, C++, Python
+-Circuit Design and Analysis
+-Electronics Repair
+-Rapid Prototyping with Arduino, esp32, raspberry pi
+-Communication and Collaboration
+
+
+
+Personal Projects
+------------------------
+Bimapap Insurance Management Platform
+06/2024 - 07/2024
+- Built a web app in Go and React for managing insurance. 
+
+
+Personal Medical Record App
+09/2024 - 01/2025
+- A personal database for managing personal health records and can be integrated with health monitoring sensors 
+
+
+
+
+
+Certificates
+------------------------
+Kenya Certificate of Secondary Education
+01/2013 - 12/2016
+
+
+
+
+
+Languages
+------------------------
+-English- (100/100)
+-Kiswahili- (80/100)
+
+
+
+Interests
+------------------------
+-Programming
+-Electronics
+-Automation
+-FIntech
+
+
+
