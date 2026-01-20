@@ -22,15 +22,9 @@ var chromedpconverttopdf = http.HandlerFunc(func(w http.ResponseWriter, r *http.
 	ctx, cancel := chromedp.NewContext(context.Background())
 	defer cancel()
 
-	// Read the HTML file
-	htmlContent, err := os.ReadFile("resume_pdf.html")
-	if err != nil {
-		log.Fatalf("Failed to read HTML file: %v", err)
-	}
-
 	// Create PDF
 	var pdfBuffer []byte
-	err = chromedp.Run(ctx, printToPDF(string(htmlContent), &pdfBuffer))
+	err := chromedp.Run(ctx, printToPDF(&pdfBuffer))
 	if err != nil {
 		log.Fatalf("Failed to create PDF: %v", err)
 	}
@@ -46,14 +40,15 @@ var chromedpconverttopdf = http.HandlerFunc(func(w http.ResponseWriter, r *http.
 })
 
 // printToPDF converts HTML content to PDF
-func printToPDF(htmlContent string, res *[]byte) chromedp.Tasks {
+func printToPDF( res *[]byte) chromedp.Tasks {
 	return chromedp.Tasks{
-		chromedp.Navigate("data:text/html," + htmlContent),
+		chromedp.Navigate("http://localhost:8080/resume_pdf.html"),
+		chromedp.WaitVisible(`body`, chromedp.ByQuery),
 		chromedp.ActionFunc(func(ctx context.Context) error {
 			buf, _, err := page.PrintToPDF().
                 WithPrintBackground(true).
                 WithPaperWidth(10). // Set page size to A4 or Letter A4 > 8.5
-                WithPaperHeight(14.2).   // A4 > 11
+                WithPaperHeight(19.2).   // A4 > 11
                 WithMarginTop(0).  // Set margins
                 WithMarginBottom(0).
                 WithMarginLeft(0).
